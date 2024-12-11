@@ -170,7 +170,7 @@ ol {
 }
 
 .search-form__textfield:active {
-  border: 1px solid #fff;
+  border: none;
 }
 
 .search-form__checkbox:checked +
@@ -200,13 +200,6 @@ ol {
 }
 
 /*Правая колонка*/
-
-.content__details,
-.content__video-card-description-container,
-.content__video-card-title,
-.content__video-card-description {
-  overflow: hidden;
-}
 
 .content__details {
   inline-size: 100%;
@@ -259,6 +252,7 @@ ol {
   gap: 4px;
   inline-size: calc(100% - 194px);
   max-block-size: 101px;
+  overflow: hidden;
 }
 
 .content__video-card-title {
@@ -271,6 +265,7 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
@@ -281,6 +276,7 @@ ol {
   color: #fff;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
