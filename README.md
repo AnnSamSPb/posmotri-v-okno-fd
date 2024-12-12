@@ -1,1 +1,1 @@
-https://github.com/AnnSamSPb/posmotri_v_okno
+https://github.com/AnnSamSPb/posmotri-v-okno-fd.git
